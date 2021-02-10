@@ -111,7 +111,6 @@ int main(int argc, char **argv)
 }
 
 /*
-   message: text to output as the prompt
    min: minimum value to accept as a valid int
    max: maximum value to accept as a valid int
 */
@@ -138,7 +137,6 @@ int promptInt(string message, int min, int max)
 }
 
 /*
-   message: text to output as the prompt
    min: minimum value to accept as a valid double
    max: maximum value to accept as a valid double
 */
@@ -183,5 +181,4 @@ void calculateStudentAverage(void *object, double *avg)
     int *a;
     a = (int*)object;
     *avg = *avg / *a;
-    // Code to calculate and store average grade
 }
